@@ -6,11 +6,11 @@
 
 
 
-#include "LIB/neslib.h"
-#include "LIB/nesdoug.h"
+#include "neslib.h"
+#include "nesdoug.h"
 #include "Sprites.h" // holds our metasprite data
-#include "BG/N0.h" // backgrounds compressed as rle files
-#include "BG/N2.h"
+#include "N0.h" // backgrounds compressed as rle files
+#include "N2.h"
  
 #pragma bss-name(push, "ZEROPAGE")
 
